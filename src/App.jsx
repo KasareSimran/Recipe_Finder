@@ -8,7 +8,7 @@ import SearchBar from "./components/SerachBar.jsx";
 function App(){
 
   const [isloading,setIsLoading] = useState(false);
-  const [query,setQuery]=useState("");
+  const [query,setQuery]=useState('');
   const [recipes,setRecipes]=useState([]);
 
   //function to search recipe,fetching data from api
