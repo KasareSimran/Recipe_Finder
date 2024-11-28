@@ -1,0 +1,94 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: #f3aff0;
+  max-width: 1000px;
+  min-height: 100vh;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 20px;
+
+}
+
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #761268;
+}
+
+.logo{
+  height: 3rem;
+}
+h3{
+  color: #7d036d;
+}
+
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px ;
+}
+
+.card{
+  width: 200px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+
+}
+
+.card-image{
+  width: 100%;
+}
+
+.card-body{
+  padding: 10px;
+  text-align: center;
+}
+
+.category{
+  color: #c50cac;
+}
+
+a{
+  background-color: #e83ee5;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+form{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input{
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.form-control{
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width:400px;
+}
+
+.button{
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
