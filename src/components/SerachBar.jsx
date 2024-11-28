@@ -5,7 +5,7 @@ import React from 'react'
 function SearchBar({value,handleSubmission,isLoading,onChange}){
 
     return(
-        <form onSubmit={handleSubmission}>
+        <form onSubmit= {handleSubmission}>
             <input
             value={value}
             disabled={isLoading}
